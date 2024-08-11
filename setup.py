@@ -1,7 +1,7 @@
 from os import path
 from setuptools import setup
 
-# read the contents of your description file
+# read the contents of your description folder
 
 this_directory = path.abspath(path.dirname(__file__))
 with open(path.join(this_directory, 'description.md'), encoding='utf-8') as f:
@@ -14,10 +14,10 @@ setup(
     description='Python package for Vodacom Mpesa API Integration',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/Kalebu/pypesa',
-    download_url="https://github.com/Kalebu/pypesa/archive/0.4.tar.gz",
-    author="Jordan Kalebu",
-    author_email="isaackeinstein@gmail.com",
+    url='https://github.com/AdamMashaka/Mpesa',
+    download_url="https://github.com/AdamMashaka/Mpesa/archive/0.4.tar.gz",
+    author="Adam Mashaka",
+    author_email="mashakaadam123@gmail.com",
     license="MIT",
     packages=["pypesa"],
     keywords=[
